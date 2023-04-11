@@ -1,0 +1,16 @@
+.overlay-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: #1D1E27;
+    text-align: center;
+    transform: translateX(100%);
+    transition: 1s;
+}
+
+.login-container.toogle .overlay-container{
+    transform: translateX(0%);
+}
